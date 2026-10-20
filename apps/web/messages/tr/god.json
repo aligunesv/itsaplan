@@ -190,6 +190,7 @@
     "saved": "Kimlik doğrulama ayarları kaydedildi",
     "registration": "Kayıt",
     "registrationHint": "Bu örneklemde kimlerin hesap oluşturabileceği.",
+    "registrationPasswordlessNote": "Kayıt ve şifre kurtarma işlemleri giriş sağlayıcısı tarafından yürütülür.",
     "inviteTtlDays": "Davet geçerlilik süresi (gün)",
     "inviteTtlDaysHint": "Bu süre sonunda davet bağlantısı çalışmayı durdurur ve yalnızca davetle kayıt modunda adrese kayıt olma yetkisi vermez. 0 değeri yanıtlanana kadar geçerli tutar.",
     "inviteTtlDaysInvalid": "0 ile {max} arasında bir tam gün sayısı girin.",
@@ -199,15 +200,18 @@
     "modes": {
       "open": {
         "label": "Açık",
-        "description": "Kayıt sayfasına ulaşan herkes hesap oluşturabilir."
+        "description": "Kayıt sayfasına ulaşan herkes hesap oluşturabilir.",
+        "descriptionPasswordless": "Sağlayıcı ile ilk kez giriş yapan herkes bir hesap alır."
       },
       "invite": {
         "label": "Yalnızca davetle",
-        "description": "Yalnızca bir davet bağlantısı üzerinden hesap oluşturulabilir."
+        "description": "Yalnızca bir davet bağlantısı üzerinden hesap oluşturulabilir.",
+        "descriptionPasswordless": "Sağlayıcı ile giriş, yalnızca o adres için bekleyen bir davet varsa hesap oluşturur."
       },
       "closed": {
         "label": "Kapalı",
-        "description": "Yeni hesap oluşturulamaz. Mevcut hesaplar giriş yapmaya devam eder."
+        "description": "Yeni hesap oluşturulamaz. Mevcut hesaplar giriş yapmaya devam eder.",
+        "descriptionPasswordless": "Sağlayıcıdan gelenler dahil yeni hesap oluşturulamaz. Mevcut hesaplar giriş yapmaya devam eder."
       }
     },
     "signIn": "Giriş seçenekleri",
